@@ -1,4 +1,4 @@
-##GOAL
+##ABOUT
 
 This project integrates Firebase Authentication with React. If we are logged in, we display a profile page (a sentence) that contains the user's name and email.  The user's email is stored in Firebase Auth. The user's name is stored in Cloud Firestore.  We use the the Context API to store the user on the client.  This project has no styling and only contains the very basics: signing up a user, logging in a user, displaying a user profile, and displaying a navigation that is dependent upon whether the user is logged in or logged out.   To see the same project with styling via Materialize and using Redux to store the user on the client instead of the Context API, view the repo "FirebaseAuth-React-Redux-Materialize".  
 

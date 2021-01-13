@@ -11,15 +11,15 @@ In order to use Firebase you need to go through the following steps:
 3) Add a web app.  You should see the web app option under "Get started by adding Firebase to your app".  Name your app.
 4) Add the Firebase SDK to your project.  You will see something like this:
 
-    var firebaseConfig = {
-            apiKey: "AIgaSyAvu__t_6LOw8kiPnZ2wjyUYeVgHN8UD5U",
-            authDomain: "name-of-project.firebaseapp.com",
-            databaseUrl: https://name-of-project.firebaseio.com
-            projectId: "name-of-project",
-            storageBucket: "name-of-project.appspot.com",
-            messagingSenderId: "289923169528",
-            appId: "1:289923169528:web:8b436e9dae4fa67fd4e791"
-            measurementId: G-NQJ7JS8PWF
+    const firebaseConfig = {
+        apiKey: "AIgaSyAvu__t_6LOw8kiPnZ2wjyUYeVgHN8UD5U",
+        authDomain: "name-of-project.firebaseapp.com",
+        databaseUrl: https://name-of-project.firebaseio.com
+        projectId: "name-of-project",
+        storageBucket: "name-of-project.appspot.com",
+        messagingSenderId: "289923169528",
+        appId: "1:289923169528:web:8b436e9dae4fa67fd4e791"
+        measurementId: G-NQJ7JS8PWF
     };
 
 Instead of copying and pasting this object into src/firbase/config.js, I used a .env.local file to store the environment variables, and then I used process.env to retrieve them in the source code.  This way, my app works on my local device, but when I push to github, other users will not be able to access my Firebase Auth and Cloud Firestore.  You can replicate the procedure with your own firebase configuration and environment variables by following these steps:

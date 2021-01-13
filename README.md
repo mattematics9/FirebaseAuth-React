@@ -6,10 +6,13 @@ This project integrates Firebase Authentication with React. If we are logged in,
 
 In order to use Firebase you need to go through the following steps:
 
-- go to https://firebase.google.com and sign in with google.  
-- Add a project.  You do not need to enable google analytics but you can if you want.  
-- Add a web app.  You should see the web app option under "Get started by adding Firebase to your app".  Name your app.
-- Add the Firebase SDK to your project.  You will see something like this:
+go to https://firebase.google.com and sign in with google.  
+
+Add a project.  You do not need to enable google analytics but you can if you want.  
+
+Add a web app.  You should see the web app option under "Get started by adding Firebase to your app".  Name your app.
+
+Add the Firebase SDK to your project.  You will see something like this:
 
     var firebaseConfig = {
         apiKey: "AIgaSyAvu__t_6LOw8kiPnZ2wjyUYeVgHN8UD5U",
